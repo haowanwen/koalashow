@@ -1,0 +1,189 @@
+*{
+	margin:0;
+	padding: 0;
+}
+div.all{
+	position: relative;
+}
+a{
+	text-decoration: none;
+}
+/*所有类型下侧隐藏*/
+div.hidden{
+	display: none;
+}		
+/*所有类型下侧显示*/
+div.allclass:hover>div.hidden{
+	display: block;
+}
+
+/*红色限时购*/
+div.toponeline{
+	width: 100%;
+	height: 120px;
+	background-image: url(../images/red.png);
+	background-size: 100% 100%;
+	position: relative;
+}
+div.redimg{
+	width: 1000px;
+	margin: 0 auto;
+	height: 120px;
+	line-height: 120px;
+	position: absolute;
+	left: 600px;
+}
+div.redimg>span.big{
+	font-size: 30px;
+	color: white;
+	font-weight: 1000px;
+	margin: 8px;
+}
+div.redimg>span.small{
+	font-size: 13px;
+	color: white;
+}
+/*时间条*/
+div.toptwoline{
+	height: 50px;
+	width: 100%;
+	background-color: rgb(51,51,51);
+	position: absolute;
+	top: 290px;
+}
+div.toptwo{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	color: #eaeaea;
+	/*border: 1px solid red;*/
+}
+div.toptwo>a.block1,div.toptwo>a.block2,div.toptwo>a.block3,div.toptwo>a.block4,div.toptwo>a.block5,div.toptwo>a.block6,div.toptwo>a.block7{
+	margin: 3px 22px;
+	color: white;
+	display: inline-block;
+	width: 85px;
+}
+div.toptwo>a.block4{
+	color: red;
+}
+/*商品图片*/
+div.img{
+	width: 1090px;
+	height: 1500px;
+	margin: 0 auto;
+	/*border:1px solid red;*/
+	background-color: rgb(246,246,246);
+}
+div.img>div.img1,div.img>div.img2,div.img>div.img3,div.img>div.img4{
+	width: 262px;
+	height: 391px;
+	background-color: white;
+	position: absolute;
+	top: 340px;
+	margin: 0 10px 10px 0;
+}
+div.img1>span.border,div.img2>span.border,div.img3>span.border,div.img4>span.border{
+	color: red;
+	border: 1px solid red;
+	padding: 2px;
+	position: absolute;
+	top: 235px;
+	left: 10px;
+}
+div.img1>a.black,div.img2>a.black,div.img3>a.black,div.img4>a.black{
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	margin: 1px 8px;
+}
+div.img1>a.gray,div.img2>a.gray,div.img3>a.gray,div.img4>a.gray{
+	font-size: 13px;
+	color: gray;
+	margin: 1px 8px;
+}
+div.img1>span.big,div.img2>span.big,div.img3>span.big,div.img4>span.big{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+div.img1>span.small,div.img2>span.small,div.img3>span.small,div.img4>span.small{
+	color: gray;
+	font-size: 13px;
+	text-decoration: line-through;
+}
+div.img1>a.round,div.img2>a.round,div.img3>a.round,div.img4>a.round{
+	color: red;
+	border: 2px solid red;
+	padding: 5px 10px;
+	border-radius: 15px;
+	margin-left: 85px;
+}
+div.img1>div.prowhite,div.img2>div.prowhite,div.img3>div.prowhite,div.img4>div.prowhite{
+	display: inline-block;
+	width: 200px;
+	height: 11px;
+	border-radius: 10px;
+	border: 1px solid red;
+	background-color: white;
+	margin: 17px 0 5px 5px;
+}
+div.img1>div.prored,div.img2>div.prored,div.img3>div.prored,div.img4>div.prored{
+	display: inline-block;
+	width: 134px;
+	height: 11px;
+	border-radius: 10px;
+	background-color: red;
+	border: 1px solid red;
+	position: absolute;
+	top: 348px;
+	left: 6px;
+}
+div.img1>span.pro,div.img2>span.pro,div.img3>span.pro,div.img4>span.pro{
+	font-size: 11px;
+	color: red;
+}
+div.img2{
+	position: absolute;
+	left: 490px;
+}
+div.img>div.img22{
+	position: absolute;
+	left: 490px;
+}
+
+div.img3{
+	position: absolute;
+	left: 767px;
+}
+div.img4{
+	position: absolute;
+	left: 1040px;
+}
+/*上一页下一页*/
+div.button{
+	width: 1090px;
+	height: 90px;
+	margin: 0 auto;
+	position: relative;
+	background-color: rgb(246,246,246);
+	/*border: 1px solid red;*/
+}
+div.button>span.span1,div.button>span.span2{
+	color: white;
+	font-size: 23px;
+	background-color: black;
+	border: 1px solid black;
+	padding: 5px 17px;
+	margin: 15px 15px;
+}
+div.button>span.span1{
+	position: absolute;
+	top: 5px;
+	left: 400px;
+}
+div.button>span.span2{
+	position: absolute;
+	top: 5px;
+	left: 540px;
+}

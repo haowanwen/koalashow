@@ -1,0 +1,676 @@
+*{
+			margin:0;
+			padding: 0;
+		}
+		div.all{
+			position: relative;
+		}
+		hr{
+			color: rgb(135,135,135);
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			text-decoration: none;
+		}
+		nav.head{
+			width: 100%;
+			height: 30px;
+			background-color: rgb(0,0,0);
+		}
+		div.head{
+			width: 1090px;
+			height: 30px;
+			background-color: rgb(0,0,0);
+			color: rgb(153,153,153);
+			font-size: 10px;
+			margin: 0 auto;
+			line-height: 30px;
+
+
+		}
+		div.head a{
+			color: rgb(153,153,153);
+			font-size: 10px;
+			text-decoration: none;
+			margin: 0px 16px;
+		}
+		div.flow-left{
+			display: inline-block;
+			float: left;
+
+		}
+		.shoujizhuce{
+			position: relative;
+		}
+		.erweima{
+			padding: 5px;
+			width: 112px;
+			background-color: rgb(255,255,240);
+			position: absolute;
+			left: -23px;
+			z-index: 30;
+		}
+		strong{
+			display: inline-block;
+			height: 18px;
+			width: 112px;
+			line-height: 18px;
+			align: center;
+			font-size: 14px;
+			color: red;
+			margin: 0;
+			padding: 0;
+		}
+
+		div.erweima{
+			display: none;
+		}
+
+		.shoujizhuce:hover>.erweima{
+			display: block;
+		}
+
+		div.flow-right{
+			float: right;
+
+		}
+		div.flow-right>div{
+			display: inline-block;
+			margin: 0px 16px;	
+			width: 50px;
+			text-align: center;		
+		}
+		div.gerenzhongxin,div.customer,div.money,div.announcement,div.more{
+			position: relative;
+		}
+		.list-myself{
+			position: absolute;
+			top: 50px;
+		}
+		.list-customer{
+			position: absolute;
+			top: 50px;
+		}
+		.list-money{
+			position: absolute;
+			top: 50px;
+		}
+		.list-announcement{
+			position: absolute;
+			top: 50px;
+		}
+		.list-more{
+			position: absolute;
+			top: 50px;
+		}
+		.gerenzhongxin:hover>.list-myself,.customer:hover>.list-customer,.money:hover>.list-money,.announcement:hover>.list-announcement,.more:hover>.list-more{
+			display: block;
+			z-index: 30;
+
+		}
+		.gerenzhongxin:hover,.customer:hover,.money:hover,.announcement:hover,.more:hover{
+				background: white;
+				width: 80px;
+		}
+		.list-myself,.list-customer,.list-money,.list-announcement,.list-more{
+			display: none;
+			background-color: white;
+			width: 100px;
+			text-align: center;
+		}
+		ul{
+			list-style: none;
+		}
+		/*查找块*/
+		div.search{
+			width: 1090px;
+			margin: 0 auto;
+			position: relative;
+			/*height: 
+			line-height: 30px;*/
+
+		}
+		div.search>img.logo{
+			display: inline-block;
+			width: 330px;
+			height: 65px;
+			margin: 15px;
+		}
+		div.topsearch{
+			display: inline-block;
+			width: 430px;
+			height: 28px;
+			border: 2px solid red;
+			border-radius: 20px;
+			position: absolute;
+			top: 23px;
+		}
+		div.topsearch>img.search1{
+			width: 19px;
+			height: 19px;
+			position: absolute;
+			top: 6px;
+			left: 12px;
+
+		}
+		input.topinsearch{
+			width: 320px;
+			height: 19px;
+			position: absolute;
+			top: 5px;
+			left: 35px;
+			border: none;
+		}
+		div.topsearch>div.search2{
+			width: 50px;
+			height: 30px;
+			background-color: red;
+			border-radius: 20px;
+			position: absolute;
+			right: -1px;
+		}
+		div.search2>img.search2{
+			display: inline-block;
+			width: 25px;
+			height: 25px;
+			position: absolute;
+			right: 12px;
+		}
+		div.shopping{
+			display: inline-block;
+			width: 90px;
+			height: 28px;
+			border: 2px solid red;
+			border-radius: 20px;
+			position: absolute;
+			top: 23px;
+			right: 160px;
+		}
+		div.shopping>img.shopping{
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			top: 5px;
+			right: 60px;
+		}
+		div.shopping>span.shopping{
+			font-size: 14px;
+			position: absolute;
+			right: 10px;
+			top: 5px;
+		}
+		div.name{
+			width: 600px;
+			height: 22px;
+			line-height: 22px;
+			position: absolute;
+			top: 60px;
+			right: 100px;
+
+		}
+		div.name>*{
+			display: inline-block;
+			text-decoration: none;
+			font-size: 10px;
+			color: rgb(153,153,153);
+			width: 50px;
+			margin: 0,10px;
+
+		}
+		a.highlight{
+			color: red;
+		}
+		div.name>*:hover{
+			text-decoration: underline;
+		}
+			/*导航页*/
+		div.topright{
+			background: white;
+			width: 890px;
+			height: 47px;
+			line-height: 47px;
+			text-align: center;
+			/*border: 1px solid red;*/
+			position: absolute;
+			left: 392px;
+			z-index: 10;
+
+		}
+		div.topright>div{
+			display: inline-block;
+			color: black;
+			font-weight: bold;
+			font-size: 18px;
+			margin: 10px;
+		}
+		div.topright>div.highlight{
+			color: red;
+		}
+		div.allclass{
+			z-index: 10;
+		}
+		/*左侧导航栏*/
+		div.navigation{
+			width: 1090px;
+			margin: 0 auto;
+			position: relative;
+			color: white;
+			z-index: 10;
+		}
+		div.left{
+			width: 200px;
+			background-color: red;
+			position: absolute;
+			/*top: -50px;*/
+		}
+		/*给导航字左右两侧图片设置宽高对齐方式*/
+		.allclass>img,div.beauty>img,div.mom>img,div.health>img,div.camera>img,div.people>img,div.cloth>img,div.run>img,div.time>img,div.lux>img,div.environment>img,div.food>img{
+			width: 35px;
+			height: 25px;
+			line-height: 25px;
+			margin: 10px 15px;
+		}
+		/*设置每一个扩展图标的位置*/
+		div.beauty>img.kuozhan,div.mom>img.kuozhan,div.health>img.kuozhan,div.camera>img.kuozhan,div.people>img.kuozhan,div.cloth>img.kuozhan,div.run>img.kuozhan,div.time>img.kuozhan,div.lux>img.kuozhan,div.environment>img.kuozhan,div.food>img.kuozhan{
+			position: absolute;
+			left: 135px;
+		}
+		div.beauty{
+			width: 164px;
+			height: 48px;
+			margin: 0;
+			padding: 0;
+		}
+		/*设置每一个字体位置*/
+		div.allclass>span.font,div.beauty>span.font,div.mom>span.font,div.health>span.font,div.camera>span.font,div.people>span.font,div.cloth>span.font,div.run>span.font,div.time>span.font,div.lux>span.font,div.environment>span.font,div.food>span.font{
+			position: absolute;
+			height: 48px;
+			line-height: 48px;
+		}
+		/*美容彩妆下拉列表图片*/
+		div.skin,div.facemark,div.caizhuang,div.fangshai,div.xiangshui{
+			display: inline-block;
+			width: 230px;
+			/*border: 1px solid #eaeaea;*/
+			margin: 10px;
+		}
+		/*所有类型下侧隐藏*/
+		div.hidden{
+			display: none;
+		}		
+		/*所有类型下侧显示*/
+		div.allclass:hover>div.hidden{
+			display: block;
+		}
+		/*下拉列表隐藏*/
+		div.list-beauty{
+			display: none;
+		}
+		/*鼠标悬停下拉列表显示*/
+		div.beauty:hover+div.list-beauty{
+			display: block;
+		}
+		/*美容彩妆左侧栏大小*/
+		div.list-beauty-left{
+			width: 660px;
+			display: inline-block;
+		}
+		/*拉下列表A标签设置*/
+		div.list-beauty-left a{
+			text-decoration: none;
+			height: 14px;
+			line-height: 14px;
+			padding: 0 10px;
+			margin-top: 20px;
+			font-size: 13px;
+			color: rgb(153,153,153);
+		}
+		.fangshai{
+			position: absolute;
+			top: 137px;
+		}
+		.xiangshui{
+			position: absolute;
+			top: 280px;
+			left: 0px;
+		}
+		div.list-beauty-right{
+			width: 237px;
+			display: inline-block;
+			/*border: 1px solid red;*/
+			position: absolute;
+			top: 10px;
+			left: 530px;
+		}
+		div.list-beauty-right-buttom{
+			position: absolute;
+			top: 350px;
+			left: 530px;
+		}
+		div.list-beauty-right>img{
+			display: inline-block;
+			width: 104px;
+			border: 3px solid #eaeaea;
+			margin: 0 3px 2px 0;
+		}
+		/*美妆右侧总下拉列表*/
+		div.list-beauty{
+			width: 890px;
+			height: 508px;
+			border: 1px solid red;
+			background-color: white;
+			position: absolute;
+			top: 45px;
+			left: 200px;
+		}
+		/*大标题*/
+		div.neirong{
+			position: relative;
+			top: 50px;
+			width: 1090px;
+			height: 1000px;
+			margin: 0 auto;
+			background-color: rgb(246,246,246);
+			/*border: 1px solid red;*/
+		}
+		div.title{
+			color: black;
+			font-size: 28px;
+			font-weight: 900px;
+			height: 60px;
+			line-height: 60px;
+			text-align: center;
+			width: 1090px;
+		}
+		div.neirong>div.oneline{
+			position: absolute;
+			left: 370px;
+		}
+		div.oneline>a.red{
+
+			color: white;
+			font-size: 16px;
+			font-weight: bold;
+			/*border: 1px solid #eaeaea;*/
+			background-color: rgb(210,32,70);
+			padding: 7px 10px;
+			position: absolute;
+			top: 50px;
+		}
+		div.oneline>a.white{
+			color: black;
+			font-size: 16px;
+			font-weight: bold;
+			border: 1px solid #eaeaea;
+			background-color: white;
+			padding: 9px 14px;
+		}
+		/*小块定位*/
+		div.oneline>a.no0{
+			position: absolute;
+			left: -300px;
+		}
+		div.oneline>a.no1{
+			position: absolute;
+			top: 50px;
+			left: -215px;
+		}
+		div.oneline>a.no2{
+			position: absolute;
+			top: 50px;
+			left: -130px;
+		}
+		div.oneline>a.no3{
+			position: absolute;
+			top: 50px;
+			left: -42px;
+		}
+		div.oneline>a.no4{
+			position: absolute;
+			top: 50px;
+			left: 45px;
+		}
+		div.oneline>a.no5{
+			position: absolute;
+			top: 50px;
+			left: 133px;
+		}
+		div.oneline>a.no6{
+			position: absolute;
+			top: 50px;
+			left: 218px;
+		}
+		div.oneline>a.no7{
+			position: absolute;
+			top: 50px;
+			left: 306px;
+		}
+		div.oneline>a.no8{
+			position: absolute;
+			top: 50px;
+			left: 394px;
+		}
+		div.oneline>a.no9{
+			position: absolute;
+			top: 50px;
+			left: 482px;
+		}
+		div.oneline>a.no10{
+			position: absolute;
+			top: 50px;
+			left: 570px;
+		}
+		/*图片*/
+		div.img{
+			width: 1090px;
+			height: 900px;
+			margin: 0 auto;
+			/*border:1px solid red;*/
+			background-color: rgb(246,246,246);
+		}
+		div.img>div.img1,div.img>div.img2,div.img>div.img3,div.img>div.img4,div.img>div.img5,div.img>div.img6,div.img>div.img8{
+			width: 262px;
+			height: 391px;
+			background-color: white;
+			position: absolute;
+			top: 340px;
+			margin: 0 10px 10px 0;
+		}
+		div.img1>span.border,div.img2>span.border,div.img3>span.border,div.img4>span.border,div.img5>span.border,div.img6>span.border,,div.img7>span.border,div.img8>span.border{
+			color: red;
+			border: 1px solid red;
+			padding: 2px;
+			position: absolute;
+			top: 310px;
+			left: 100px;
+		}
+		div.img1>a.black,div.img2>a.black,div.img3>a.black,div.img4>a.black,div.img5>a.black,div.img6>a.black,div.img7>a.black,div.img8>a.black{
+			font-size: 15px;
+			font-weight: bold;
+			color: black;
+			margin: 1px 8px;
+		}
+		div.img1>a.gray,div.img2>a.gray,div.img3>a.gray,div.img4>a.gray,div.img5>a.gray,div.img6>a.gray,div.img7>a.gray,div.img8>a.gray{
+			font-size: 13px;
+			color: gray;
+			margin: 1px 8px;
+		}
+		div.img1>span.big,div.img2>span.big,div.img3>span.big,div.img4>span.big,div.img5>span.big,div.img6>span.big,div.img7>span.big,div.img8>span.big{
+			color: red;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		div.img1>span.small,div.img2>span.small,div.img3>span.small,div.img4>span.small,div.img5>span.small,div.img6>span.small,div.img7>span.small,div.img8>span.small{
+			color: gray;
+			font-size: 13px;
+			text-decoration: line-through;
+		}
+		div.img1>a.round,div.img2>a.round,div.img3>a.round,div.img4>a.round,div.img5>a.round,div.img6>a.round,div.img7>a.round,div.img8>a.round{
+			color: white;
+			background-color: red;
+			text-align: center;
+			width: 210px;
+			height: 23px;
+			padding: 5px 10px;
+			position: absolute;
+			top: 350px;
+			left: 20px;
+		}
+		/*定位*/
+		div.img>div.img1{
+			position: absolute;
+			top: 130px;
+		}
+		div.img>div.img2{
+			position: absolute;
+			top: 130px;
+			left: 280px;
+		}
+		div.img>div.img3{
+			position: absolute;
+			top: 130px;
+			left: 550px;
+		}
+		div.img>div.img4{
+			position: absolute;
+			top: 130px;
+			left: 820px;
+		}
+		div.img>div.img5{
+			position: absolute;
+			top: 530px;
+		}
+		div.img>div.img6{
+			position: absolute;
+			top: 530px;
+			left: 280px;
+		}
+		div.img>div.img7{
+			position: absolute;
+			top: 530px;
+			left: 550px;
+		}
+		div.img>div.img8{
+			position: absolute;
+			top: 530px;
+			left: 820px;
+		}
+/*脚*/
+	div.foot{
+		position: relative;
+	}
+	div.foot-tt{
+		width: 1100px;
+		margin: 0 auto;
+	}
+
+	div.foot-t{
+		width: 100%;
+		height: 450px;
+		position: absolute;
+		top: 50px;
+		/*border: 1px solid red;*/
+	}
+	div.logo1,div.logo2,div.logo3,div.logo4{
+		display: inline-block;
+		padding: 0;
+		margin: 40px;
+	}
+	div.logo1>span{
+		position: absolute;
+		top: 95px;
+		left: 290px;
+	}
+	div.logo2>span{
+		position: absolute;
+		top: 95px;
+		left: 540px;
+	}
+	div.logo3>span{
+		position: absolute;
+		top: 95px;
+		left: 790px;
+	}
+	div.logo4>span{
+		position: absolute;
+		top: 95px;
+		left: 1030px;
+	}
+	/**/
+	div.top-td{
+		width: 1100px;
+		margin: 0 auto;
+	}
+	div.dlogo>img.timg{
+		margin: 5px;
+	}
+	div.dfont>span.tbig{
+		font-size: 19px;
+		color: black;
+		margin: 0 25px;
+	}
+	div.dfont>a.tsmall{
+		font-size: 13px;
+		color: black;
+		margin: 0 38px;
+	}
+
+	div.dfont,div.dlogo{
+		display: inline-block;
+	}
+	div.dfont{
+		position: absolute;
+		top: 190px;
+		left: 500px;
+	}
+	/**/
+	div.top-td>img.imgtd{
+		position: absolute;
+		top: 200px;
+		right: 250px;
+	}
+	div.top-td>span.imgtd{
+		font-size: 13px;
+		color: gray;
+		position: absolute;
+		right: 26 0px;
+	}
+	/**/
+	div.down{
+		width: 100%;
+		height: 160px;
+		background-color: rgb(51,51,51);
+		position: absolute;
+		top: 350px;
+	}
+	div.oneline{
+		width: 1100px;
+		margin: 0 auto;
+		position: absolute;
+		left: 350px;
+		top: 10px;
+	}
+	div.oneline>a.down{
+		color: gray;
+		font-size: 13px;
+		margin-left: 15px;
+	}
+	div.twoline>span{
+		color: gray;
+		font-size: 13px;
+	}
+	div.twoline{
+		width: 1100px;
+		margin: 0 auto;
+		position: absolute;
+		left: 350px;
+		top: 40px;
+	}
+	div.threeline{
+		width: 1100px;
+		margin: 0 auto;
+		position: absolute;
+		left: 650px;
+		top: 80px;
+	}
